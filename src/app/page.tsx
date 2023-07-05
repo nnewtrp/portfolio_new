@@ -20,6 +20,10 @@ export default function Home() {
               Welcome to my digital domain, where the art of software development takes center stage,
               seamlessly blending functionality, aesthetics, and flawless user experiences.
             </p>
+
+            <button className="bg-white hover:bg-sky-500 border-4 border-sky-500 text-sky-500 hover:text-white text-2xl font-bold rounded rounded-lg h-[60px] w-[200px] mt-28">
+              {"See More >>"}
+            </button>
           </div>
 
           {/* Menu Bar */}
