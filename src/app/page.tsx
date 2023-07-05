@@ -5,10 +5,10 @@ export default function Home() {
         {/* Top Bar */}
         <div className="bg-black text-white text-2xl px-5 py-3">New</div>
 
-        {/* Content Container */}
-        <div className="container flex flex-row text-2xl px-36 py-16">
+        {/* Content */}
+        <div className="flex flex-row text-2xl px-36 py-16">
           {/* Text */}
-          <div className="basis-11/12">
+          <div className="basis-5/6">
             <h1 className="text-black font-bold text-8xl mt-4">
               Teerapat Satitporn
             </h1>
@@ -27,7 +27,25 @@ export default function Home() {
           </div>
 
           {/* Menu Bar */}
-          <div className="basis-1/12">
+          <div className="basis-1/6">
+            <div className="flex flex-row justify-end">
+              <div className="flex flex-col mt-16">
+                <button className="bg-black border-[5px] border-black rounded rounded-full h-[40px] w-[40px]" />
+                <div className="bg-black h-12 w-2 mx-4" />
+
+                <button className="bg-white hover:bg-neutral-300 border-[5px] border-black rounded rounded-full h-[40px] w-[40px]" />
+                <div className="bg-black h-12 w-2 mx-4" />
+
+                <button className="bg-white hover:bg-neutral-300 border-[5px] border-black rounded rounded-full h-[40px] w-[40px]" />
+                <div className="bg-black h-12 w-2 mx-4" />
+
+                <button className="bg-white hover:bg-neutral-300 border-[5px] border-black rounded rounded-full h-[40px] w-[40px]" />
+                <div className="bg-black h-12 w-2 mx-4" />
+
+                <button className="bg-white hover:bg-neutral-300 border-[5px] border-black rounded rounded-full h-[40px] w-[40px]" />
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
