@@ -15,7 +15,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {/* Top Bar */}
+        <div className="bg-black text-white text-2xl px-5 py-3">
+          Teerapat
+        </div>
+
+        {/* Content */}
+        {children}
+
+        {/* Footer */}
+      </body>
     </html>
   )
 }
